@@ -74,32 +74,8 @@
       </div>
     </nav>
     <!-- navbar termina -->
-    <h2>Compras</h2>
-    <!-- Inicio formulario -->
-    <div class="form-check-inline">
-      <label class="form-check-label">
-        <input type="radio" class="form-check-input" name="optradio">Option 1
-      </label>
-    </div>
-    <div class="form-check-inline">
-      <label class="form-check-label">
-        <input type="radio" class="form-check-input" name="optradio">Option 2
-      </label>
-    </div>
-    <div class="form-check-inline disabled">
-      <label class="form-check-label">
-        <input type="radio" class="form-check-input" name="optradio" disabled>Option 3
-      </label>
-    </div>
-    <!-- inicio footer -->
-    <footer>
-      <div class="redes">
-          <a target="_blank" href="https://www.instagram.com/joyeriasagitarioantofagasta/"></i>
-              <i class="fa-brands fa-instagram"></i>
-            </a>
-      </div>
-  </footer>
-  <!-- cierre footer -->
+    <h2>Contactanos</h2>
+
     <script
       src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -115,5 +91,59 @@
       integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
       crossorigin="anonymous"
     ></script>
+    <!-- Inicio formulario -->
+    <!--Tipo de pago inicio -->
+    <form class="form-inline col-md-2">
+      <label for="pago" class="mr-sm-2">Tipo de pago:</label>
+      <div class="custom-control custom-radio custom-control-inline">
+        <input type="radio" class="custom-control-input" id="credito" name="example" value="customEx">
+        <label class="custom-control-label" for="credito">Credito</label>
+      </div>
+      <div class="custom-control custom-radio custom-control-inline">
+        <input type="radio" class="custom-control-input" id="debito" name="example" value="customEx">
+        <label class="custom-control-label" for="debito">Webpay/OnePay</label>
+      </div>
+<!-- fin -->
+<!-- Inicio entrega -->
+<label for="pago" class="mr-sm-2">Entrega:</label>
+<div class="custom-control custom-radio custom-control-inline">
+  <input type="radio" class="custom-control-input" id="tienda" name="example" value="customEx">
+  <label class="custom-control-label" for="tienda">Retiro en tienda</label>
+</div>
+<div class="custom-control custom-radio custom-control-inline">
+  <input type="radio" class="custom-control-input" id="domicilio" name="example" value="customEx">
+  <label class="custom-control-label" for="domicilio">Domicilio</label>
+</div>
+      <!-- fin -->
+      <!-- Inicio desea agregar -->
+      <label for="pago" class="mr-sm-2">Desea agregar:</label>
+      <div class="form-check">
+        <label class="form-check-label">
+          <input type="checkbox" class="form-check-input" value="">Bolsa de regalo
+        </label>
+      </div>
+      <div class="form-check">
+        <label class="form-check-label">
+          <input type="checkbox" class="form-check-input" value="">Caja para ocacón especial
+        </label>
+      </div>
+      
+      
+      <!-- Cierre -->
+
+      <!-- inicio boton -->
+      <button type="submit" class="btn btn-secondary">Enviar</button>
+      <!-- Cierre -->
+    </form>
+     <!-- Termino Formulario -->
+        <!-- inicio footer -->
+        <footer>
+          <div class="redes">
+              <a target="_blank" href="https://www.instagram.com/joyeriasagitarioantofagasta/"></i>
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+          </div>
+      </footer>
+      <!-- cierre footer -->
   </body>
 </html>
