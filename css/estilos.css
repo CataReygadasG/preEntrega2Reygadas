@@ -1,3 +1,11 @@
+.navbar-brand{
+    color: #fff;
+    text-shadow: 0 0 5px #000;
+}
+
+.navbar-brand span{
+    color: rgb(94, 86, 67);
+}
 form{
     margin: 10px;
     padding: 10px;
