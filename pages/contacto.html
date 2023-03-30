@@ -94,6 +94,7 @@
     <!-- Inicio formulario -->
     <!-- Nombre inicio -->
     <form class="form-inline col-md-2" action="/action_page.php">
+      <div>
       <label for="name" class="mr-sm-2">Nombre:</label>
       <input
         type="name"
@@ -101,8 +102,10 @@
         placeholder="Nombre completo"
         id="name"
       />
+    </div>
 <!-- fin nombre -->
 <!-- Inicio correo -->
+      <div>
       <label for="email" class="mr-sm-2">Correo:</label>
       <input
         type="email"
@@ -110,7 +113,9 @@
         placeholder="Ingrese su e-mail"
         id="name"
       />
+    </div>
       <!-- Inicio Ciudad -->
+      <div>
       <label for="city" class="mr-sm-2">Ciudad:</label>
       <select name="city" class="custom-select">
         <option selected>Seleccione ciudad</option>
@@ -118,8 +123,10 @@
         <option value="antofa">Antofagasta</option>
         <option value="iquique">Iquique</option>
       </select>
+    </div>
       <!-- Cierre ciudad -->
       <!-- Inicio mensaje -->
+      <div>
       <label for="comment" class="mr-sm-2">Mensaje:</label>
       <textarea
         class="form-control"
@@ -127,10 +134,15 @@
         id="comment"
         placeholder="Ingrese mensaje"
       ></textarea>
-      <!-- Cierre mesaje y inicio boton -->
-      <button type="submit" class="btn btn-secondary">Enviar</button>
-      
+    </div>
+     <!-- Cierre mesaje y inicio boton -->
+     <div class="form-group row col-md-6">
+      <button type="button" class="btn btn-dark">Enviar</button> 
+    </div> 
     </form>
+      
+    <!-- Termino formulario -->
+
         <!-- inicio footer -->
         <footer>
           <div class="redes">
@@ -140,5 +152,10 @@
           </div>
       </footer>
       <!-- cierre footer -->
-  </body>
+      <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+    </body>
+       
+
 </html>

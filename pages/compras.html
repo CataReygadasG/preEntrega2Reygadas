@@ -92,58 +92,50 @@
       crossorigin="anonymous"
     ></script>
     <!-- Inicio formulario -->
-    <!--Tipo de pago inicio -->
-    <form class="form-inline col-md-2">
-      <label for="pago" class="mr-sm-2">Tipo de pago:</label>
-      <div class="custom-control custom-radio custom-control-inline">
-        <input type="radio" class="custom-control-input" id="credito" name="example" value="customEx">
-        <label class="custom-control-label" for="credito">Credito</label>
+    <form class="form-inline col-md-3" action="/action_page.php">
+      <div>
+        <label for="agregar">Tipo de pago: </label>
       </div>
-      <div class="custom-control custom-radio custom-control-inline">
-        <input type="radio" class="custom-control-input" id="debito" name="example" value="customEx">
-        <label class="custom-control-label" for="debito">Webpay/OnePay</label>
-      </div>
-<!-- fin -->
-<!-- Inicio entrega -->
-<label for="pago" class="mr-sm-2">Entrega:</label>
-<div class="custom-control custom-radio custom-control-inline">
-  <input type="radio" class="custom-control-input" id="tienda" name="example" value="customEx">
-  <label class="custom-control-label" for="tienda">Retiro en tienda</label>
-</div>
-<div class="custom-control custom-radio custom-control-inline">
-  <input type="radio" class="custom-control-input" id="domicilio" name="example" value="customEx">
-  <label class="custom-control-label" for="domicilio">Domicilio</label>
-</div>
-      <!-- fin -->
-      <!-- Inicio desea agregar -->
-      <label for="pago" class="mr-sm-2">Desea agregar:</label>
-      <div class="form-check">
-        <label class="form-check-label">
-          <input type="checkbox" class="form-check-input" value="">Bolsa de regalo
-        </label>
-      </div>
-      <div class="form-check">
-        <label class="form-check-label">
-          <input type="checkbox" class="form-check-input" value="">Caja para ocación especial
-        </label>
-      </div>
+    <div class="form-check">
+      <label class="form-check-label">
+        <input type="radio" class="form-check-input" name="optradio">Credito
+      </label>
+    </div>
+    <div class="form-check">
+      <label class="form-check-label">
+        <input type="radio" class="form-check-input" name="optradio">Webpay/Onepay
+      </label>
+    </div>
+    <div>
+      <label for="agregar">Entrega: </label>
+    </div>
+  <div class="form-check">
+    <label class="form-check-label">
+      <input type="radio" class="form-check-input" name="optradio">Retiro en tienda
+    </label>
+  </div>
+  <div class="form-check">
+    <label class="form-check-label">
+      <input type="radio" class="form-check-input" name="optradio">Domicilio
+    </label>
+  </div>
+    
       
-      
-      <!-- Cierre -->
-
-      <!-- inicio boton -->
-      <button type="submit" class="btn btn-secondary">Enviar</button>
-      <!-- Cierre -->
+        <div>
+          <label for="agregar">Desea agregar: </label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+          <label class="form-check-label" for="inlineCheckbox1">Bolsa de regalo</label>
+        </div>
+        <!-- inicio boton -->
+        <div class="form-group row col-md-6">
+        <button type="submit" class="btn btn-secondary">Enviar</button> 
+         <!-- Cierre -->
+      </div>
     </form>
-     <!-- Termino Formulario -->
-        <!-- inicio footer -->
-        <footer>
-          <div class="redes">
-              <a target="_blank" href="https://www.instagram.com/joyeriasagitarioantofagasta/"></i>
-                  <i class="fa-brands fa-instagram"></i>
-                </a>
-          </div>
-      </footer>
-      <!-- cierre footer -->
+     <!--Termino formulario-->
+
+        
   </body>
 </html>

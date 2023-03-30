@@ -19,10 +19,10 @@ label{
 }
 form{
     border: 7px solid rgb(165, 153, 116);
-    margin: auto  ;
+     margin: auto  ; 
     border-radius: 10px;
-     block-size: auto;
-     margin-top: 10px;
+     block-size: auto; 
+     margin-top: 50px;
   }
 
   footer{
