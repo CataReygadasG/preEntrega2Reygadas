@@ -19,27 +19,28 @@ h2{
     text-align: center;
     color: #fff;
     text-transform: capitalize;
-    padding: 20px;
+    padding: 10px;
     margin-bottom: 20px;
 }
 section{
     display: grid;
     justify-content: space-between;
-    padding: 20px;
+    padding: 10px;
     grid-template-columns: repeat(3, 1fr);
 }
 .card{
     min-height: 300px;
     /* width: 30%; */
     background-color: #333;
-    border: 5px solid rgb(165, 153, 116);
+    border: 3px solid rgb(165, 153, 116);
 }
 
 .card__img{
     background-image: url(../img/imgA1.jpg);
     background-size: cover;
     background-position: center;
-    height: 380px;
+    height: 370px;
+    
 }
 
 .card__title{
@@ -48,8 +49,9 @@ section{
 }
 
 .card__descripcion{
+    text-align: center;
     color: #fff;
-    padding: 20px;
+    /* padding: 2px; */
 }
 
 .card__button{
@@ -61,8 +63,9 @@ section{
     text-transform: uppercase;
     padding: 10px 20px;
     display: inline-block;
-    width: 90%;
+    width: 115px;
     margin: 5%;
+    
 }
 
 .card__button:hover{
@@ -72,31 +75,31 @@ section{
     background-image: url(../img/imgA2.jpg);
     background-size: cover;
     background-position: center;
-    height: 380px;
+    height: 370px;
 }
 .card__img3{
     background-image: url(../img/imgA3.jpg);
     background-size: cover;
     background-position: center;
-    height: 380px;
+    height: 370px;
 }
 .card__img4{
     background-image: url(../img/imgA4.jpg);
     background-size: cover;
     background-position: center;
-    height: 380px;
+    height: 370px;
 }
 .card__img5{
     background-image: url(../img/imgA5.jpg);
     background-size: cover;
     background-position: center;
-    height: 380px;
+    height: 370px;
 }
 .card__img6{
     background-image: url(../img/imgA6.jpg);
     background-size: cover;
     background-position: center;
-    height: 380px;
+    height: 370px;
 }
 
 footer{

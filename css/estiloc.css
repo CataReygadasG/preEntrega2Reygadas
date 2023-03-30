@@ -25,21 +25,20 @@ h2{
 section{
     display: grid;
     justify-content: space-between;
-    padding: 20px;
+    padding: 5px;
     grid-template-columns: repeat(3, 1fr);
 }
 .card{
     min-height: 300px;
     /* width: 30%; */
     background-color: #333;
-    border: 5px solid rgb(165, 153, 116);
+    border: 3px solid rgb(165, 153, 116);
 }
-
 .card__img{
     background-image: url(../img/imgC6.jpg);
     background-size: cover;
     background-position: center;
-    height: 350px;
+    height: 320px;
     width: auto;
 }
 
@@ -62,8 +61,9 @@ section{
     text-transform: uppercase;
     padding: 10px 20px;
     display: inline-block;
-    width: 90%;
+    width: 115px;
     margin: 5%;
+    
 }
 
 .card__button:hover{
@@ -73,31 +73,31 @@ section{
     background-image: url(../img/imgC1.jpg);
     background-size: cover;
     background-position: center;
-    height: 350px;
+    height: 320px;
 }
 .card__img3{
     background-image: url(../img/imgC2.jpg);
     background-size: cover;
     background-position: center;
-    height: 350px;
+    height: 320px;
 }
 .card__img4{
     background-image: url(../img/imgC3.jpg);
     background-size: cover;
     background-position: center;
-    height: 350px;
+    height: 320px;
 }
 .card__img5{
     background-image: url(../img/imgC4.jpg);
     background-size: cover;
     background-position: center;
-    height: 350px;
+    height: 320px;
 }
 .card__img6{
     background-image: url(../img/imgC5.jpg);
     background-size: cover;
     background-position: center;
-    height: 350px;
+    height: 320px;
 }
 
 footer{
