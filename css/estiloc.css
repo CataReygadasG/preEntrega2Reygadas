@@ -14,7 +14,7 @@
 body{
     background-color: rgb(116, 107, 80);
 }
-h2{
+h1{
     background-color: rgb(165, 153, 116);
     text-align: center;
     color: #fff;
@@ -25,14 +25,22 @@ h2{
 section{
     display: grid;
     justify-content: space-between;
-    padding: 5px;
+    padding: 10px;
     grid-template-columns: repeat(3, 1fr);
+    /* grid-template-columns: repeat(1,fr); */
+    text-align: center;
+    object-fit: contain;
+    width: 50%;
+    
+    margin-left: auto;
+    margin-right: auto;
 }
 .card{
-    min-height: 300px;
-    /* width: 30%; */
+    min-height: 100px;
+    width: 100%;
     background-color: #333;
-    border: 3px solid rgb(165, 153, 116);
+    border: 10px solid rgb(165, 153, 116);
+   
 }
 .card__img{
     background-image: url(../img/imgC6.jpg);
